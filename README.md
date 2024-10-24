@@ -1,6 +1,5 @@
 # Gym Website - React & TailwindCSS
 
-
 ![Deploy](https://img.shields.io/badge/deploy-Netlify-blue)
 
 ## Table of Contents
@@ -10,7 +9,7 @@
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
-
+- [Live Demo](#live-demo)
 
 ## Project Overview
 
@@ -63,5 +62,7 @@ Ensure you have the following installed:
 
 2. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
+## Live Demo
 
+You can view the live version of the project [here](https://your-netlify-site-link).
 
