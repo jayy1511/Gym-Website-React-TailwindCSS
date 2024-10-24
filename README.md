@@ -10,9 +10,7 @@
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
