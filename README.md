@@ -63,5 +63,5 @@ Ensure you have the following installed:
 
 2. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-## File Structure
+
 
