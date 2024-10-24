@@ -37,7 +37,7 @@ const PlansCard = (props) => {
       </div>
 
       <div className=" flex flex-row justify-center mt-4">
-        <Button title="Buy Plan" />
+        <Button title="Buy Plan" link="/plan-details" />
       </div>
     </div>
   );
