@@ -1,6 +1,6 @@
 # Gym Website - React & TailwindCSS
 
-![License](https://img.shields.io/badge/license-MIT-green)
+
 ![Deploy](https://img.shields.io/badge/deploy-Netlify-blue)
 
 ## Table of Contents
