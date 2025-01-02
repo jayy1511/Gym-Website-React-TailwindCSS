@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiOutlineMenuUnfold } from "react-icons/ai";
+import logo from '../assets/images/FITZONE.png';
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
             <div className="flex flex-row justify-between px-5 md:px-32 py-4">
                 <div className="flex items-center">
                     <Link to="/" spy={true} smooth={true} duration={500}>
-                        <h1 className="font-extrabold text-3xl text-brightRed">FitZone</h1>
+                        <img src={logo} alt="Logo" className="cursor-pointer" style={{ width: '80px', height: '50px' }} />
                     </Link>
                 </div>
                 <nav className="hidden md:flex items-center gap-6">
@@ -25,11 +26,11 @@ const Navbar = () => {
                         duration={500}
                         className="hover:text-brightRed transition-all cursor-pointer">Home</Link>
                     <Link
-                        to="clubs"
+                        to="subscriptions"
                         spy={true}
                         smooth={true}
                         duration={500}
-                        className="hover:text-brightRed transition-all cursor-pointer">Clubs</Link>
+                        className="hover:text-brightRed transition-all cursor-pointer">Subscriptions</Link>
                     <Link
                         to="activities"
                         spy={true}
@@ -37,11 +38,11 @@ const Navbar = () => {
                         duration={500}
                         className="hover:text-brightRed transition-all cursor-pointer">Activities</Link>
                     <Link
-                        to="subscriptions"
+                        to="clubs"
                         spy={true}
                         smooth={true}
                         duration={500}
-                        className="hover:text-brightRed transition-all cursor-pointer">Subscriptions</Link>
+                        className="hover:text-brightRed transition-all cursor-pointer">Clubs</Link>
                     <Link
                         to="about"
                         spy={true}
@@ -71,11 +72,11 @@ const Navbar = () => {
                     duration={500}
                     className="hover:text-brightRed transition-all cursor-pointer">Home</Link>
                 <Link
-                    to="clubs"
+                    to="subscriptions"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    className="hover:text-brightRed transition-all cursor-pointer">Clubs</Link>
+                    className="hover:text-brightRed transition-all cursor-pointer">Subscriptions</Link>
                 <Link
                     to="activities"
                     spy={true}
@@ -83,11 +84,11 @@ const Navbar = () => {
                     duration={500}
                     className="hover:text-brightRed transition-all cursor-pointer">Activities</Link>
                 <Link
-                    to="subscriptions"
+                    to="clubs"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    className="hover:text-brightRed transition-all cursor-pointer">Subscriptions</Link>
+                    className="hover:text-brightRed transition-all cursor-pointer">Clubs</Link>
                 <Link
                     to="about"
                     spy={true}

@@ -9,3 +9,33 @@ body{
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
+
+/* index.css or App.css */
+
+/* Override slick carousel styles */
+.slick-prev,
+.slick-next {
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+  color: #333;
+}
+
+.container {
+  position: relative;
+  overflow: hidden; /* Add this line to hide overflow */
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+  box-sizing: border-box; /* Ensure correct sizing */
+}
