@@ -1,7 +1,7 @@
 import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { AiFillCheckCircle } from "react-icons/ai";
-import Button from "../layouts/Button"; // Ensure the correct path
+import Button from "../layouts/Button"; // Use your Button component
 
 const ClubsCard = (props) => {
   return (
@@ -39,7 +39,7 @@ const ClubsCard = (props) => {
       </div>
 
       <div className="flex flex-row justify-center mt-4">
-        <Button title="View Details" link="/club-details"/>
+        <Button title="View Details" link="landing/club" />
       </div>
     </div>
   );

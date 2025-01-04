@@ -1,10 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const Button = ({ title, link }) => {
+const Button = ({ title, link, state }) => {
+  const navigate = useNavigate();
+
   const handleClick = () => {
-    const targetElement = document.getElementById(link);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" });
+    if (state) {
+      navigate(`/${link}`, { state }); // Navigate with state if provided
+    } else {
+      navigate(`/${link}`); // Navigate without state
     }
   };
 

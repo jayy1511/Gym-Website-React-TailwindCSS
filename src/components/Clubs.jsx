@@ -58,6 +58,12 @@ const ClubsSection = () => {
   };
 
   return (
+    <div id="clubs" className="min-h-screen flex flex-col justify-center items-center md:px-32 px-5">
+      <h1 className="text-5xl font-semibold text-center mt-10">Our Clubs</h1>
+      <p className="text-center text-lg mt-5 md:w-2/3">
+        Explore a wide range of clubs designed to suit all fitness levels and interests.
+        Whether you're looking to relax, dance, or push your limits, we have something for everyone.
+      </p>
     <div className="container mx-auto py-8 px-4">
       <Slider {...settings}>
         {clubsData.map((club, index) => (
@@ -72,6 +78,7 @@ const ClubsSection = () => {
           </div>
         ))}
       </Slider>
+    </div>
     </div>
   );
 };
