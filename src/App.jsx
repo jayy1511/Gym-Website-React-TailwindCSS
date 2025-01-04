@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { SignUp } from '@clerk/clerk-react';
 
 // Import your landing pages
 import ActivitiyLanding from './landing pages/ActivitiyLanding';
@@ -17,29 +18,26 @@ import About from './components/About';
 import Clubs from './components/Clubs';
 import Cont from './components/Cont';
 import Activities from './components/Activities';
+import LoginPage from './components/LoginPage'; // Import the new LoginPage
+import SignUpPage from './components/SignUpPage';
 
 const MainPage = () => (
   <div>
     <div id="home">
       <Home />
     </div>
-
     <div id="subscriptions">
       <Plans />
     </div>
-
     <div id="activities">
       <Activities />
     </div>
-
     <div id="clubs">
       <Clubs />
     </div>
-
     <div id="about">
       <About />
     </div>
-
     <div id="contact">
       <Cont />
     </div>
@@ -54,6 +52,8 @@ const App = () => {
         <main>
           <Routes>
             <Route path="/" element={<MainPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignUpPage />} />
             <Route path="/landing/activity" element={<ActivitiyLanding />} />
             <Route path="/landing/buy-plan" element={<BuyPlan />} />
             <Route path="/landing/club" element={<ClubLanding />} />
