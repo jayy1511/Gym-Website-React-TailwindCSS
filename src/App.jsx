@@ -4,21 +4,21 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { SignUp } from '@clerk/clerk-react';
 
-// Import your landing pages
+// landing pages
 import ActivitiyLanding from './landing pages/ActivitiyLanding';
 import BuyPlan from './landing pages/BuyPlan';
 import ClubLanding from './landing pages/ClubLanding';
 import ContactLanding from './landing pages/ContactLanding';
 import PlanLanding from './landing pages/PlanLanding';
 
-// Import other components
+// other components
 import Home from './components/Home';
 import Plans from './components/Plans';
 import About from './components/About';
 import Clubs from './components/Clubs';
 import Cont from './components/Cont';
 import Activities from './components/Activities';
-import LoginPage from './components/LoginPage'; // Import the new LoginPage
+import LoginPage from './components/LoginPage';
 import SignUpPage from './components/SignUpPage';
 
 const MainPage = () => (
