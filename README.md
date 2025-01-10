@@ -64,5 +64,5 @@ Ensure you have the following installed:
 
 ## Live Demo
 
-You can view the live version of the project [here]([(https://671a5d07e9ce190a3e24ae1a--teal-panda-c0946a.netlify.app/]).
+You can view the live version of the project [here]([https://678142243c155f365f8aa334--stellular-hummingbird-3c190f.netlify.app/]).
 
