@@ -12,7 +12,7 @@ const PlansCard = ({ title, price, features }) => {
         <span className="inline-block">
           <MdOutlineAttachMoney size={22} />
         </span>
-        <h3 className="font-bold text-xl inline-block">${price}</h3>
+        <h3 className="font-bold text-xl inline-block">{price}</h3>
       </div>
 
       <div className="mt-6 space-y-3">
