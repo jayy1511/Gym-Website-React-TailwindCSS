@@ -64,5 +64,7 @@ Ensure you have the following installed:
 
 ## Live Demo
 
-You can view the live version of the project [here]([https://678142243c155f365f8aa334--stellular-hummingbird-3c190f.netlify.app/]).
+You can view the live version of the project [here](https://678142243c155f365f8aa334--stellular-hummingbird-3c190f.netlify.app/).
+
+
 
