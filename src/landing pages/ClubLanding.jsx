@@ -1,29 +1,33 @@
 import React, { useEffect } from "react";
+import img1 from "../assets/images/Clubs/club-7.jpg"; 
+import img2 from "../assets/images/Clubs/la defense.jpg";
+import img3 from "../assets/images/Clubs/Paris sud.jpg"; 
+import img4 from "../assets/images/Clubs/Aquaboulevard.jpg";
 
 const clubs = [
   {
-    name: "Club Montparnasse",
+    name: "Club Voltaire",
     description:
       "Le Club Montparnasse offre une variété d'activités pour tous les niveaux, incluant des équipements modernes et des cours collectifs dans un environnement convivial.",
-    image: "/path-to-montparnasse-image.jpg", // Replace with the actual image path
+    image: img1,
   },
   {
-    name: "Club Champs-Élysées",
+    name: "Club La-Defense",
     description:
       "Situé au cœur de Paris, le Club Champs-Élysées est équipé des dernières technologies et propose des sessions personnalisées pour répondre à vos besoins.",
-    image: "/path-to-champs-elysees-image.jpg", // Replace with the actual image path
+    image: img2,
+  },
+  {
+    name: "Club Villejuif",
+    description:
+      "Découvrez le Club Bastille, un espace dédié à la musculation, au cardio-training, et aux cours collectifs pour atteindre vos objectifs de fitness.",
+    image: img3,
   },
   {
     name: "Club Bastille",
     description:
-      "Découvrez le Club Bastille, un espace dédié à la musculation, au cardio-training, et aux cours collectifs pour atteindre vos objectifs de fitness.",
-    image: "/path-to-bastille-image.jpg", // Replace with the actual image path
-  },
-  {
-    name: "Club La Défense",
-    description:
       "Le Club La Défense combine modernité et efficacité avec une grande variété d'équipements et de programmes adaptés à tous les âges.",
-    image: "/path-to-la-defense-image.jpg", // Replace with the actual image path
+    image: img4,
   },
 ];
 
@@ -55,7 +59,7 @@ const ClubLanding = () => {
               index % 2 === 1 ? "lg:flex-row-reverse" : ""
             }`}
           >
-            {/* Text Content */}
+           
             <div className="text-white flex flex-col justify-center">
               <h2 className="text-3xl font-bold mb-4">
                 À PROPOS DE {club.name.toUpperCase()}

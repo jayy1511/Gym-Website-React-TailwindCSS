@@ -10,7 +10,7 @@ const Home = () => {
         </h1>
 
         <div className=" w-full md:w-2/4 mt-5 flex flex-row justify-center">
-          <Button title="Checkout Plans" link="subscriptions"/>
+          <Button title="Checkout Plans" scrollTo="Plans" />
         </div>
       </div>
     </div>

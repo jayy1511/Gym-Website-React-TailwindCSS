@@ -17,7 +17,7 @@ const clubsData = [
   {
     name: "FitZone La-defense",
     description: "A family-friendly gym with modern amenities.",
-    location: "456 Elm St, La-defense, Paris",
+    location: "456 Elm St, La-defense",
     image: img2,
     features: ["Group Classes", "Swimming Pool", "Kids Zone"],
   },
@@ -29,9 +29,9 @@ const clubsData = [
     features: ["Modern Equipment", "Personal Training", "Sauna & Spa"],
   },
   {
-    name: "FitZone Aquaboulevard",
+    name: "FitZone Bastille",
     description: "A premium club with aqua park",
-    location: "11 Rue Saint Jean, Boulogne billancourt",
+    location: "11 Rue Saint Jean, Bastille",
     image: img4,
     features: ["Modern Equipment", "Personal Training", "Sauna & Spa"],
   },

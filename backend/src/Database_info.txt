@@ -1,0 +1,7 @@
+1. Users: Contains details about users, their roles, and subscriptions.
+2. Subscriptions: Plans available for users with features and pricing.
+3. Clubs: Information about different clubs and their locations.
+4. Activities: Activities offered by clubs with schedules.
+5. Trainers: Information about trainers and their specialties.
+6. Feedback: User feedback about the gym and services.
+7. Admins: Admin-level users with their details.

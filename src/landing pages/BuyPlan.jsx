@@ -14,7 +14,7 @@ const BuyPlan = () => {
   }, []);
 
   return (
-    <section className="bg-black min-h-screen px-4 md:px-16 lg:px-32 pt-32">
+    <section className="bg-black min-h-screen px-4 md:px-16 lg:px-32 pt-32 pb-16"> {/* Added pb-16 */}
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-10">
@@ -28,7 +28,7 @@ const BuyPlan = () => {
         </div>
 
         {/* Form Section */}
-        <div className="bg-[#333] p-8 rounded-lg shadow-lg max-w-lg mx-auto">
+        <div className="bg-[#333] p-8 rounded-lg shadow-lg max-w-lg mx-auto mb-16"> {/* Added mb-16 */}
           <h3 className="text-2xl font-semibold text-white mb-5">
             Complete Your Purchase
           </h3>
@@ -36,15 +36,43 @@ const BuyPlan = () => {
             <div className="mb-4">
               <label
                 className="block text-white text-sm font-bold mb-2"
-                htmlFor="name"
+                htmlFor="firstName"
               >
-                Name
+                First Name
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
-                id="name"
+                id="firstName"
                 type="text"
-                placeholder="Your name"
+                placeholder="Your first name"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-white text-sm font-bold mb-2"
+                htmlFor="lastName"
+              >
+                Last Name
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                id="lastName"
+                type="text"
+                placeholder="Your last name"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-white text-sm font-bold mb-2"
+                htmlFor="number"
+              >
+                Contact Number
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                id="number"
+                type="tel"
+                placeholder="Your contact number"
               />
             </div>
             <div className="mb-4">
@@ -61,11 +89,25 @@ const BuyPlan = () => {
                 placeholder="Your email"
               />
             </div>
+            <div className="mb-4">
+              <label
+                className="block text-white text-sm font-bold mb-2"
+                htmlFor="address"
+              >
+                Address
+              </label>
+              <textarea
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                id="address"
+                rows="3"
+                placeholder="Your address"
+              ></textarea>
+            </div>
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
+              className="bg-brightRed hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
               type="submit"
             >
-              Submit
+              Go to payment
             </button>
           </form>
         </div>
